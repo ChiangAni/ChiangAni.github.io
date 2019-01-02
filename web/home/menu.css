@@ -1,0 +1,63 @@
+
+#menu {  /* 選單區 */
+   width: 70%;
+    height: 30px;
+     margin:0 auto; 
+background-color: #FFBB00;}
+
+/* 下拉按钮样式 */
+.dropbtn {
+    background-color: #666666;
+    color: white;
+    height: 30px;
+    width: 100px;
+    padding: 0.5em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;    
+}
+/*-----------主菜單連結樣式----------------*/
+.dropdown a {
+    color: white;    
+    text-decoration: none;
+}
+/*----------------------------------------*/
+
+
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #AAAAAA;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: black;
+    padding: 0.5em;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: #003377}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: #00AA55;
+}
+

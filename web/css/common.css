@@ -1,0 +1,34 @@
+body, html{ /*body和html元件*/
+  margin: 0; /*去掉瀏覽器預設的留白*/
+  width: 100%; /*設定寬度為他的上層的100%*/
+  height: 100%; /*也設定高度為他的上層的100%*/      
+   border-collapse:collapse; /*邊框合併為單一邊框*/
+   overflow:hidden;  /* 新增這行：當溢位時，自動顯示捲軸 */
+  /*html的上層是視窗  body的上層是html*/  
+} 
+#box{
+width:80%;
+ margin:auto;
+ margin-top:30%;
+ /*font-family:"微軟正黑體",Arial,Helvetica,sans-serif; 
+ padding-top:2%;
+ padding-left:2%;
+ padding-right:2%;
+ background-color:#666666;
+ border-radius:5px;*/}
+
+
+/*------------文字設定-------------------*/
+h1{color:#227700;
+ font-size:2em;
+ font-famly:verdana,Geneva,sans-serif;
+ text-align:center;
+ letter-spacing:0.2em;
+ text-transform:uppercase;}
+
+ h2{color:#00AA55;
+ font-size:1em;
+ font-famly:verdana,Geneva,sans-serif;
+ text-align:center;
+ letter-spacing:0.2em;
+ text-transform:uppercase;}

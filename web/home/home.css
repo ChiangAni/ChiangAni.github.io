@@ -1,0 +1,47 @@
+body, html{ /*body和html元件*/
+  margin: 0; /*去掉瀏覽器預設的留白*/
+  width: 100%; /*設定寬度為他的上層的100%*/
+  height: 100%; /*也設定高度為他的上層的100%*/
+  background-color: 	#2F4F4F ;/*背景顏色設成#CCCCCC*/     
+   border-collapse:collapse; /*邊框合併為單一邊框*/
+   overflow:auto;  /* 新增這行：當溢位時，自動顯示捲軸 */
+  /*html的上層是視窗  body的上層是html*/  
+} 
+#A{
+    background-color: 	#000000;    
+    width: 70%;
+    height: 200px;
+     margin:0 auto;      
+     border:#000 1px solid;
+     /*overflow:scroll;
+     overflow-x:hidden; 捲軸設定*/
+}
+.Aimg{width: 100%;
+    height: 200px;}
+
+#D{
+        
+    background-color: 	#DDDDDD;    
+    width: 70%; 
+    height:1250px;
+     margin:0 auto;      
+     border:#000 1px solid;    
+     
+}
+
+
+h1{color:#FFF;
+ font-size:2em;
+ font-famly:verdana,Geneva,sans-serif;
+ letter-spacing:0.05em; /*相對大小（em）*/
+ text-transform:uppercase;
+text-align:center;}
+
+h2{color:#003377;
+ font-size:1em;
+ font-famly:DFKai-sb;  /*標楷體*/
+ letter-spacing:0.05em; /*相對大小（em）*/
+ text-transform:uppercase;}
+
+
+

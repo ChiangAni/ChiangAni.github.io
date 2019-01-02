@@ -1,0 +1,26 @@
+h1{color:#000;
+ font-size:2em;
+ font-weight: 900; /*粗體*/
+ font-famly:DFKai-sb,verdana;/*標楷體*/
+ letter-spacing:0.05em; /*相對大小（em）*/ 
+text-align:center;}
+h2{color:#000;
+ font-size:1em;
+ font-weight: 100; /*粗體*/
+ font-famly:DFKai-sb,verdana;/*標楷體*/
+ letter-spacing:0.05em; /*相對大小（em）*/
+text-align:left;}
+h3{color:#000;
+ font-size:1em;
+ font-weight: 900; /*粗體*/
+ font-famly:DFKai-sb,verdana;/*標楷體*/
+ letter-spacing:0.05em; /*相對大小（em）*/
+text-align:left;}
+h4{color:#00DD77;
+ font-size:1em;
+ font-weight: 900; /*粗體*/
+ text-transform:none;
+ font-famly:DFKai-sb,verdana;/*標楷體*/
+ letter-spacing:0.05em; /*相對大小（em）*/
+text-align:left;}
+
